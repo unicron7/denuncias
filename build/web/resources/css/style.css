@@ -1,0 +1,81 @@
+ /* 
+    Created on : 04/03/2015, 03:30:07 PM
+    Author     : mejiaw
+*/
+body {
+    /* background-image: url('../images/fd.jpg');*/
+}
+
+form {
+    width: 100%;
+}
+
+/*Realizar cambio global de tamaño de fuente*/
+.ui-widget, .ui-widget .ui-widget {
+    font-size: 90%;
+}
+
+#header {
+    position: relative;
+    background-color: #ffffff;
+    color: white;
+    margin: 0px 0px 10px 0px;
+}
+
+.center_content {
+    position: relative;
+    background-color: #f4f4f4;
+    text-align: justify;
+}
+
+#footer {
+    position: relative;
+    background-color: #f3eded;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+
+.pg-center {
+    margin: 0 auto;
+    width: 750px;
+}
+/*Sirve para quitar el borde del panel grid*/
+.pg-center.ui-panelgrid>*>tr,
+.pg-center.ui-panelgrid .ui-panelgrid-cell {
+    border: none;
+}
+
+.pg-center-dialog {
+    margin: 0 auto;
+    width: 350px;
+}
+/*Sirve para quitar el borde del panel grid*/
+.pg-center-dialog.ui-panelgrid>*>tr,
+.pg-center-dialog.ui-panelgrid .ui-panelgrid-cell {
+    border: none;
+}
+
+
+.inputtext-form {
+    width: 270px !important;
+}
+
+.inputtextarea-form {
+    width: 270px !important;
+    height: 100px !important;
+    max-height: 85px !important;
+}
+
+.onemenu-form {
+    width: 278px !important;
+}
+
+.upload-files {
+    width: 500px !important;
+}
+
+.section-header {
+    font-weight: bolder;
+    font-size: 14px;
+}
