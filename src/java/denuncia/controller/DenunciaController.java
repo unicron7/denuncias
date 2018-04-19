@@ -262,7 +262,6 @@ public class DenunciaController {
         cantones= null;
         parroquias= null;
         archivosParaCargar= null;
-        
     }
     
     private void sendMail(DenunciaDto d) {
